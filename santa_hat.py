@@ -51,7 +51,7 @@ async def santahat(ctx, user: discord.Member = None):
 
     await ctx.send(file = discord.File("profile.png"))
 
-client.run("")
+client.run("insert bot token here")
 
 # Using both PIL and openCV, this puts a santa hat on your profile picture and sends it back on discord
 # after using the #santahat command. Merry Christmas!

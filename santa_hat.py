@@ -23,7 +23,7 @@ async def santahat(ctx, user: discord.Member = None):
     if user == None:
         user = ctx.author
 
-    santa_hat = cv2.imread("/Users/nicojao/Documents/santa_hat.png", -1)
+    santa_hat = cv2.imread("output.png", -1)
 
     asset = ctx.author.avatar_url_as(size = 256)
     data = BytesIO(await asset.read())
